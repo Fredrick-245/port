@@ -43,9 +43,9 @@ export default function HireForm() {
         Host: "smtp.gmail.com",
         Username: "ndemofredrick245@gmail.com",
         Password: "veetnyavvkscfobo",
-        To: `${inputData.email}`,
-        From: "ndemofredrick245@gmail.com",
-        Subject: `${inputData.name}:${inputData.subject}`,
+        To: `ndemofredrick245@gmail.com`,
+        From: `ndemofredrick245@gmail.com`,
+        Subject: `${inputData.name},${inputData.email}:${inputData.subject}`,
         Body: `${inputData.message}`,
       }).then(function (message) {
         setMessageIsSent(true);

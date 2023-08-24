@@ -6,7 +6,6 @@ export default function NavLink({children,href}) {
     function linkClickHandler(e){
       e.preventDefault()
       setBar(true)
-      // window.scrollTo(document.getElementById(children),{behavior:'smooth'})
       document.getElementById(children).scrollIntoView({behavior:'smooth'})
     }
   return (

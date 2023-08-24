@@ -14,7 +14,7 @@ export default function App() {
 
       <Head>
         <title>Fredrick Ndemo Portfolio</title>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        {/* <script src="https://smtpjs.com/v3/smtp.js"></script> */}
       </Head>
         <Navigation/>
         <Home/>

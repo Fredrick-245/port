@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState, useRef } from "react";
 import { useContext } from "react";
 import AppContext from "../store/AppContext";
 import NavLink from "@/utils/NavLink";
+import Image from "next/image";
 
 import classes from "./Home.module.css";
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
     return () => {
       clearInterval(h1Interval);
     };
-  }, [workArray]);
+  }, [workArray,ctx]);
   return (
     <div ref={homePageRef} className={classes.home} id="Home">
     {ctx.showSideBar &&  <div className={[ctx.showSideBar && classes.sideBar]}>
@@ -54,6 +55,10 @@ export default function Home() {
           {h1}
         </h2>
         <h2>from Kenya.</h2>
+        <div className={classes.heroImg}>
+          {/* <Image alt="picture of fredrick" src='./hero.jpg' width={200} height={200}/> */}
+
+        </div>
       </div>
     </div>
   );

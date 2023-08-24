@@ -14,7 +14,7 @@ export default function Skill({title,onCLick}) {
     }
     return (
     <div className={classes.skillSmallContainer} onClick={skillClickHandler}>
-      <p style={{color:changeColor?'#f9004d':'#fff'}}>{title}</p>
+      <p className={classes.skillPar} style={{color:changeColor?'#f9004d':'#fff'}}>{title}</p>
       <div  style={{width:changeColor?'100%':'60px',backgroundColor:changeColor?'#f9004d':'#fff',transition:'all .4s'}} className={classes.skillDiv}></div>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Contacts.module.css";
 import HireForm from "./HireForm";
+import Image from "next/image";
 
 export default function Contacts() {
   return (
@@ -18,7 +19,7 @@ export default function Contacts() {
         </p>
       </div>
       <div>
-        <img alt="picture of Fredrick Ndemo" />
+        <Image alt="picture of Fredrick Ndemo" />
       </div>
     </div>
   );

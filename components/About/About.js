@@ -1,14 +1,15 @@
 import React from "react";
 import classes from "./About.module.css";
 import Skills from "./Background/Skills";
+import Image from "next/image";
 export default function About() {
   return (
     <div className={classes.about} id="About">
         <div className={classes.about_image_container}>
-            <img src="../../public/me1.jpeg" alt="Picture of fredrick ndemo" />
+            <Image src="../../public/me1.jpeg" alt="Picture of fredrick ndemo" />
         </div>
       <div className={classes.description}>
-        <h2>About Me</h2>
+        <h2 className={classes.descriptionHeader}>About Me</h2>
         <p>
           I am a passionate front-end and backend engineer and also a
           Android/IOS developer.I have worked with these technologies for over

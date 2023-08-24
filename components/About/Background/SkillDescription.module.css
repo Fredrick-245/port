@@ -1,7 +1,8 @@
 .descriptionContainer{
     margin-top: 30px;
 }
-.descriptionContainer h2{
+.descriptionContainerHeader{
+    color: #fff;
     font-size: 24px;
     opacity: 0.7;
     font-weight: 500;
