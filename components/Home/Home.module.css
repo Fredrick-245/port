@@ -65,3 +65,16 @@
   
 
 }
+@media only screen and (max-width:600px){
+    .sideBar{
+        display: block;
+    }
+    .me h1{
+        font-size:20px ;
+    }
+    .me h2{
+        font-size: 18px;
+    }
+  
+
+}

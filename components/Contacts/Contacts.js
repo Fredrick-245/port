@@ -18,6 +18,7 @@ export default function Contacts() {
           <HireForm/>
         </p>
       </div>
+      {/* <h1 color="#fff">Bug</h1> */}
       {/* <div>
         <Image alt="picture of Fredrick Ndemo" />
       </div> */}
