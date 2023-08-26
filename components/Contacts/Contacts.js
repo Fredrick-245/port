@@ -18,9 +18,9 @@ export default function Contacts() {
           <HireForm/>
         </p>
       </div>
-      <div>
+      {/* <div>
         <Image alt="picture of Fredrick Ndemo" />
-      </div>
+      </div> */}
     </div>
   );
 }
