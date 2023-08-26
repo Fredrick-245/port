@@ -21,7 +21,7 @@ export const services = [
   {
     h1:'Marketing',
     icon:GoPeople,
-    p:'I am equipped with great marketing skills wich helped me successfully run a small business'
+    p:'I am equipped with great marketing skills wich helped me successfully run a small business back in highschool.'
   }
 
 ];
