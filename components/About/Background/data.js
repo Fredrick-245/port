@@ -18,7 +18,7 @@ export const awards=[
 
 export const exprience=[
     {
-        title:'Lead instructor-GDC JKUAt',
+        title:'Lead instructor-GDSC JKUAt',
         skill:'2021-2022'
     },
     {
@@ -34,15 +34,15 @@ export const exprience=[
 export const eductionalBackground=[
     {
         title:'Primary School-Engorwa DEB',
-        skill:'2010'
+        skill:'2010-2018'
     },
     {
-        title:'Secondary schoool-Njoro Boys High School',
-        skill:'2018'
+        title:'Secondary school-Njoro Boys High School',
+        skill:'2018-2022'
     },
     {
         title:'BSc In Electrical and Electronic engineering-JKUAT',
-        skill:'2023'
+        skill:'2023-current'
     }
 
 ]

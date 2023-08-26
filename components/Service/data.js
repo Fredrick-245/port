@@ -6,7 +6,7 @@ export const services = [
   {
     h1: "Web Development",
     icon: MdWeb,
-    p: "I develope full stack ,responsive and highly perfoming websites.I am equiped with technologies like React js that I hvae worked for over an year now.",
+    p: "I develop full stack ,responsive and highly perfoming websites.I am equiped with technologies like React js that I hvae worked for over an year now.",
   },
   {
     h1:'Mobile App Developement',
@@ -21,7 +21,7 @@ export const services = [
   {
     h1:'Marketing',
     icon:GoPeople,
-    p:'I could also say I have great marketing skills as I had a small businnes back in highschool'
+    p:'I am equipped with great marketing skills wich helped me successfully run a small business'
   }
 
 ];
