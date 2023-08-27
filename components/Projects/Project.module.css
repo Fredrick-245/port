@@ -48,9 +48,10 @@
     }
 
 }
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:800px){
     .projectsContainer{
         grid-template-columns: repeat(2,1fr);
+        row-gap: 2rem;
     }
 }
 @media only screen and (max-width:600px){
